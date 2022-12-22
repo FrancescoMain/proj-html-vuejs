@@ -1,11 +1,11 @@
 <script >
-import topFoot from './topFoot.vue'
+import TopFoot from './TopFoot.vue'
 
 export default {
 
     name: "AppFooter",
     components: {
-        topFoot
+        TopFoot
     }
 
 }
@@ -17,7 +17,7 @@ export default {
 <template>
     <div class="wrapper">
         <!-- topFoot  -->
-        <topFoot />
+        <TopFoot />
         <!-- botFoot  -->
     </div>
 

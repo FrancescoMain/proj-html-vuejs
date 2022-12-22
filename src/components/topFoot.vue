@@ -1,6 +1,6 @@
 <script >
 import { store } from "../store.js";
-import about from './about.vue'
+import About from './About.vue'
 
 
 
@@ -9,7 +9,7 @@ export default {
 
     name: "AppFooter",
     components: {
-        about,
+        About,
 
     },
     data() {
@@ -30,7 +30,7 @@ export default {
             <div class="row align-items-center">
                 <!-- about section  -->
                 <div class="col-4">
-                    <about :texts="store.about" :logo="store.logo" />
+                    <About :texts="store.about" :logo="store.logo" />
                 </div>
                 <!-- navbar  -->
 

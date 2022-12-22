@@ -1,15 +1,15 @@
 <script >
-import topHead from './topHead.vue'
-import navHero from './navHero.vue'
-import cta from './cta.vue'
+import TopHead from './TopHead.vue'
+import NavHero from './NavHero.vue'
+import Cta from './Cta.vue'
 
 export default {
 
   name: "AppHeader",
   components: {
-    topHead,
-    navHero,
-    cta
+    TopHead,
+    NavHero,
+    Cta
   }
 
 }
@@ -21,11 +21,11 @@ export default {
 <template>
   <header>
     <!-- topHead  -->
-    <topHead />
+    <TopHead />
     <!-- navHero  -->
-    <navHero />
+    <NavHero />
     <!-- cta -->
-    <cta />
+    <Cta />
   </header>
 
 </template>

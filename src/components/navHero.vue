@@ -1,14 +1,14 @@
 <script >
-import navBar from './navBar.vue'
-import hero from './hero.vue'
+import NavBar from './NavBar.vue'
+import Hero from './Hero.vue'
 
 
 export default {
 
     name: "navHero",
     components: {
-        navBar,
-        hero
+        NavBar,
+        Hero
     }
 
 }
@@ -20,9 +20,9 @@ export default {
 <template>
     <div class="wrapper">
         <!-- nav -->
-        <navBar />
+        <NavBar />
         <!-- hero -->
-        <hero />
+        <Hero />
     </div>
 
 </template>

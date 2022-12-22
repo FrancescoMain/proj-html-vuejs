@@ -1,5 +1,5 @@
 <script >
-import bottone from './bottone.vue'
+import Bottone from './Bottone.vue'
 
 import { store } from "../store.js";
 
@@ -8,7 +8,7 @@ export default {
 
     name: "navHero",
     components: {
-        bottone
+        Bottone
     },
     data() {
         return {
@@ -34,7 +34,7 @@ export default {
                             <a :href="link.href">{{ link.title }}</a>
                         </li>
                     </ul>
-                    <bottone :data="store.navBut" />
+                    <Bottone :data="store.navBut" />
                 </nav>
             </div>
         </div>
