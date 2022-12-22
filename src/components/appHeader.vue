@@ -1,5 +1,6 @@
 <script >
 import topHead from './topHead.vue'
+import navHero from './navHero.vue'
 
 export default {
 
@@ -19,6 +20,7 @@ export default {
   <!-- topHead  -->
   <topHead />
   <!-- navHero  -->
+  <navHero />
   <!-- cta -->
 
 </template>
