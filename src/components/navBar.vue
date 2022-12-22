@@ -1,6 +1,7 @@
 <script >
 import bottone from './bottone.vue'
 
+import { store } from "../store.js";
 
 
 export default {
@@ -8,6 +9,11 @@ export default {
     name: "navHero",
     components: {
         bottone
+    },
+    data() {
+        return {
+            store,
+        }
     }
 
 }
@@ -24,23 +30,8 @@ export default {
             <div class="col">
                 <nav class="d-flex align-items-center">
                     <ul>
-                        <li>
-                            <a href="">Home</a>
-                        </li>
-                        <li>
-                            <a href="">Rates</a>
-                        </li>
-                        <li>
-                            <a href="">Testimonial</a>
-                        </li>
-                        <li>
-                            <a href="">Faq</a>
-                        </li>
-                        <li>
-                            <a href="">Blog</a>
-                        </li>
-                        <li>
-                            <a href="">Contact</a>
+                        <li v-for="link in store.navbarLinks">
+                            <a :href="link.href">{{ link.title }}</a>
                         </li>
                     </ul>
                     <bottone />
