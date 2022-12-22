@@ -57,6 +57,9 @@ export const store = reactive({
             id: "youtube",
             href: "#",
             icon: "fa-brands fa-youtube"
-        }]
-
+        }],
+    navBut: {
+        text: "FREE QUOTE",
+        href: "#",
+    }
 });
