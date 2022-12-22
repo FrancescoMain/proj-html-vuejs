@@ -26,6 +26,13 @@ export const store = reactive({
 
     footerText: "@copyright 2012-2020 | Avada Theme  by ThemeFusion | All Rights Reserved | Powered By WordPress ",
 
+    headacheFree: {
+        smallTitle: "HEADACHE FREE",
+        topTitle: "Award Winning ",
+        botTitle: "Moving Company ",
+        text: "lorem ipsum dolor sit amet, consectetur adipiscing el aspect et non proident et ullamcor lore tell tellus. Lorem ipsum dolor sit amet, consect",
+    },
+
     // links
     cta: {
         icons: "fa-regular fa-paper-plane",
@@ -134,6 +141,10 @@ export const store = reactive({
     //buttons
     navBut: {
         text: "FREE QUOTE",
+        href: "#",
+    },
+    headacheFreeBut: {
+        text: "READ OUR TESTIMONIALS",
         href: "#",
     }
 });
