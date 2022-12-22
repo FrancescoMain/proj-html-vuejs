@@ -6,7 +6,8 @@ export default {
 
   name: "App",
   components: {
-    topHead
+    topHead,
+    navHero
   }
 
 }
