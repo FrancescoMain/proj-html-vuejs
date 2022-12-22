@@ -15,6 +15,12 @@ export const store = reactive({
         title: "WE MAKE IT SIMPLE"
     },
 
+    about: {
+        title: "ABOUT",
+        text: "lorem ipsum dolor sit amet, consectetur adipiscing el aspect et non proident et ullamcor lore tell tellus. Lorem ipsum dolor sit amet, consect",
+
+    },
+
     // links
     cta: {
         icons: "fa-regular fa-paper-plane",
