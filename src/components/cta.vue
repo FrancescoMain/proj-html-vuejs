@@ -1,5 +1,18 @@
 <script >
 
+import { store } from "../store.js";
+
+export default {
+
+    name: "cta",
+
+    data() {
+        return {
+            store,
+        }
+    }
+
+}
 </script>
 
 <template>
@@ -9,9 +22,9 @@
             <div class="row  justify-content-center align-items-center text-center">
                 <div class="col-5">
 
-                    <a href=""> <font-awesome-icon class="me-2" icon="fa-regular fa-paper-plane" />GET A FREE QUOTE
-                        ONLINE
-                        NOW </a>
+                    <a :href="store.cta.href"> <font-awesome-icon class="me-2" :icon="store.cta.icons" />{{
+                            store.cta.text
+                    }}</a>
                 </div>
 
             </div>
