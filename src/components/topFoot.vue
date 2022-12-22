@@ -40,8 +40,8 @@ export default {
                 </div>
 
                 <!-- recent post  -->
-                <div class="col-4">
-                    <NavFoot :title="store.footTitle" :links="store.navbarLinks" />
+                <div class="col-4 recent">
+                    <NavFoot :title="store.footSecondTitle" :links="store.recentPostsLinks" />
                 </div>
             </div>
         </div>
@@ -59,6 +59,10 @@ export default {
 
     .row {
         height: 445px;
+
+        .recent {
+            margin-top: 40px;
+        }
     }
 }
 </style>
