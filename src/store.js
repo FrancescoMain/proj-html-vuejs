@@ -1,11 +1,20 @@
 import { reactive } from 'vue'
 export const store = reactive({
 
-    // img
+    // imgs
     logo: {
         path: "../../public/img/avada-movers-logo.png",
         alt: "Avada: Movers"
     },
+
+    // texts
+    heroText:
+    {
+        textTop: "MOVING WHITOUT THE HASSLE",
+        textBottom: "PROFESSIONAL SEVICE WITH HIGH QUALITY AND CUSTOMER SATISFACTION",
+        title: "WE MAKE IT SIMPLE"
+    },
+
 
 
 
