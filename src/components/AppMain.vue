@@ -1,7 +1,7 @@
 <script >
 import HeadacheFree from './HeadacheFree.vue'
 import Services from './Services.vue'
-
+import FreeQuote from './FreeQuote.vue'
 
 
 export default {
@@ -9,7 +9,8 @@ export default {
     name: "AppMain",
     components: {
         HeadacheFree,
-        Services
+        Services,
+        FreeQuote
     }
 
 }
@@ -24,6 +25,8 @@ export default {
         <HeadacheFree />
         <!-- Services -->
         <Services />
+        <!-- freeQuote -->
+        <FreeQuote />
     </main>
 
 </template>
