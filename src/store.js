@@ -31,5 +31,32 @@ export const store = reactive({
             title: "Contact",
             href: "#",
         }
-    ]
+    ],
+    topHeadLink: {
+        Text: "Call us for a Free Quote: 1.800.555.67890.555",
+        icon: "fa-solid fa-phone-flip",
+        href: "#",
+    },
+    socials: [
+        {
+            id: "facebook",
+            href: "#",
+            icon: "fa-brands fa-facebook-f"
+        },
+        {
+            id: "twitter",
+            href: "#",
+            icon: "fa-brands fa-twitter"
+        },
+        {
+            id: "instagram",
+            href: "#",
+            icon: "fa-brands fa-instagram"
+        },
+        {
+            id: "youtube",
+            href: "#",
+            icon: "fa-brands fa-youtube"
+        }]
+
 });
