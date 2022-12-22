@@ -27,10 +27,10 @@ export default {
 <template>
     <div class="cont">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <!-- about section  -->
                 <div class="col-4">
-                    <about />
+                    <about :texts="store.about" :logo="store.logo" />
                 </div>
                 <!-- navbar  -->
 
@@ -48,5 +48,9 @@ export default {
 .cont {
     background-color: $white;
     height: 445px;
+
+    .row {
+        height: 445px;
+    }
 }
 </style>
