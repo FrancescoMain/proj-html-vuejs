@@ -19,13 +19,15 @@ export default {
 </script>
 
 <template>
+  <header>
+    <!-- topHead  -->
+    <topHead />
+    <!-- navHero  -->
+    <navHero />
+    <!-- cta -->
+    <cta />
+  </header>
 
-  <!-- topHead  -->
-  <topHead />
-  <!-- navHero  -->
-  <navHero />
-  <!-- cta -->
-  <cta />
 </template>
 
 <style lang="scss" scoped>
