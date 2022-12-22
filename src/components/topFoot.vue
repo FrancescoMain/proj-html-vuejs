@@ -1,6 +1,7 @@
 <script >
 import { store } from "../store.js";
 import About from './About.vue'
+import NavFoot from './NavFoot.vue'
 
 
 
@@ -10,6 +11,7 @@ export default {
     name: "AppFooter",
     components: {
         About,
+        NavFoot,
 
     },
     data() {
@@ -33,8 +35,14 @@ export default {
                     <About :texts="store.about" :logo="store.logo" />
                 </div>
                 <!-- navbar  -->
+                <div class="col-4">
+                    <NavFoot :title="store.footTitle" :links="store.navbarLinks" />
+                </div>
 
                 <!-- recent post  -->
+                <div class="col-4">
+                    <NavFoot :title="store.footTitle" :links="store.navbarLinks" />
+                </div>
             </div>
         </div>
 
