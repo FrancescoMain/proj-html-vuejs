@@ -10,9 +10,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
 import { faPhoneFlip } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookF, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add(faPhoneFlip)
+library.add(faPhoneFlip, faFacebookF, faTwitter, faInstagram, faYoutube)
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)
