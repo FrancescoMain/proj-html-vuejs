@@ -17,12 +17,12 @@ export default {
 </script>
 
 <template>
-    <div class="wrapper">
+    <footer class="wrapper">
         <!-- topFoot  -->
         <TopFoot />
         <!-- botFoot  -->
         <BotFoot />
-    </div>
+    </footer>
 
 </template>
 
