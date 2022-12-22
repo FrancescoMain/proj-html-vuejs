@@ -1,12 +1,23 @@
 <script >
+import { store } from "../store.js";
+export default {
 
+    name: "hero",
+
+    data() {
+        return {
+            store,
+        }
+    }
+
+}
 </script>
 
 <template>
     <div class="cont">
-        <h4>MOVING WHITOUT THE HASSLE</h4>
-        <h1>WE MAKE IT SIMPLE</h1>
-        <h4>PROFESSIONAL SEVICE WITH HIGH QUALITY AND CUSTOMER SATISFACTION</h4>
+        <h4>{{ store.heroText.textTop }}</h4>
+        <h1>{{ store.heroText.title }}</h1>
+        <h4>{{ store.heroText.textBottom }}</h4>
 
     </div>
 
