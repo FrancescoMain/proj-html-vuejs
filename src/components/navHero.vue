@@ -32,7 +32,7 @@ export default {
     background-image: url(../../public/img/avada-movers-homeherobackground-final.jpg);
     height: 800px;
     background-size: 2650px;
-    background-position-x: -302px;
-    background-position-y: -48px;
+    background-position-x: -419px;
+    background-position-y: -66px;
 }
 </style>
