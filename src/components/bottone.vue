@@ -1,12 +1,21 @@
 <script >
 
+
+export default {
+
+    name: "bottone",
+
+    props: {
+        data: Object,
+    }
+}
 </script>
 
 <template>
-    <a href="
-">
+    <a :href="data.href
+    ">
         <div class="bottone">
-            FREE QUOTE
+            {{ data.text }}
         </div>
     </a>
 
