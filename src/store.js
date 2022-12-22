@@ -1,5 +1,14 @@
 import { reactive } from 'vue'
 export const store = reactive({
+
+    // img
+    logo: {
+        path: "../../public/img/avada-movers-logo.png",
+        alt: "Avada: Movers"
+    },
+
+
+
     navbarLinks: [
         {
             id: 0,
@@ -58,6 +67,8 @@ export const store = reactive({
             href: "#",
             icon: "fa-brands fa-youtube"
         }],
+
+
     navBut: {
         text: "FREE QUOTE",
         href: "#",
