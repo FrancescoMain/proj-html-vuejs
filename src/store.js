@@ -15,6 +15,13 @@ export const store = reactive({
         title: "WE MAKE IT SIMPLE"
     },
 
+    // links
+    cta: {
+        icons: "fa-regular fa-paper-plane",
+        href: "#",
+        text: "GET A FREE QUOTE ONLINE NOW ",
+    },
+
 
 
 
