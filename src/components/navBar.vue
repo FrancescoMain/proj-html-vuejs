@@ -1,4 +1,16 @@
 <script >
+import bottone from './bottone.vue'
+
+
+
+export default {
+
+    name: "navHero",
+    components: {
+        bottone
+    }
+
+}
 
 </script>
 
@@ -6,11 +18,11 @@
 
     <div class="container">
         <div class="row justify-content-center align-items-center mt-3">
-            <div class="col">
+            <div class="col-4">
                 <img src="../../public/img/avada-movers-logo.png" alt="">
             </div>
             <div class="col">
-                <nav>
+                <nav class="d-flex align-items-center">
                     <ul>
                         <li>
                             <a href="">Home</a>
@@ -30,8 +42,8 @@
                         <li>
                             <a href="">Contact</a>
                         </li>
-
                     </ul>
+                    <bottone />
                 </nav>
             </div>
         </div>
@@ -45,11 +57,13 @@
 
 nav {
 
+
     ul {
         display: flex;
+        margin: 0;
 
         li {
-            margin-right: 30px;
+            margin-right: 40px;
 
             a {
                 color: $shark;
