@@ -21,46 +21,85 @@ export const store = reactive({
 
     },
 
+    footTitle: "AVADA MOVERS",
+    footSecondTitle: "RECENTS POSTS",
+
     // links
     cta: {
         icons: "fa-regular fa-paper-plane",
         href: "#",
         text: "GET A FREE QUOTE ONLINE NOW ",
     },
+    recentPostsLinks: [
+        {
+            id: 0,
+            title: "Heading Out To Collage?",
+            href: "#",
+            footer: true,
+        },
+        {
+            id: 1,
+            title: "Moving Your Business?",
+            href: "#",
+            footer: true,
+        },
+        {
+            id: 2,
+            title: "Outstanding Quality",
+            href: "#",
+            footer: true,
+        },
+        {
+            id: 4,
+            title: "Cost Of Moving",
+            href: "#",
+            footer: true,
 
-
-
-
+        },
+        {
+            id: 5,
+            title: "Best Moving Tips",
+            href: "#",
+            footer: true,
+        }
+    ],
     navbarLinks: [
         {
             id: 0,
             title: "Home",
             href: "#",
+            footer: true,
         },
         {
             id: 1,
             title: "Rates",
             href: "#",
+            footer: true,
         },
         {
             id: 2,
             title: "Testimonials",
             href: "#",
+            footer: true,
         },
         {
             id: 3,
             title: "FAQ",
             href: "#",
+            footer: false,
         },
         {
             id: 4,
             title: "Blog",
             href: "#",
+            footer: false,
+
         },
         {
             id: 5,
             title: "Contact",
             href: "#",
+            footer: true,
         }
     ],
     topHeadLink: {
