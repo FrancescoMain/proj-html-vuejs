@@ -56,6 +56,12 @@ export const store = reactive({
         }
     ],
 
+    freeQuoteTexts: {
+        topTitle: "WE REMOVE THE HEADACHE FROM MOVING ",
+        title: "Move With Ease",
+        text: "lorem ipsum dolor sit amet, consectetur adipiscing el aspect et non proident et ullamcor lore tell tellus. Lorem ipsum dolor sit amet, consect",
+    },
+
     // links
     cta: {
         icons: "fa-regular fa-paper-plane",
@@ -172,6 +178,10 @@ export const store = reactive({
     },
     readMoreBut: {
         text: "READ MORE",
+        href: "#",
+    },
+    freeQuoteBut: {
+        text: "GET A FREE QUOTE NOW",
         href: "#",
     }
 });
