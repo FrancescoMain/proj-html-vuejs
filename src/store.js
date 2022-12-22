@@ -131,7 +131,7 @@ export const store = reactive({
             icon: "fa-brands fa-youtube"
         }],
 
-
+    //buttons
     navBut: {
         text: "FREE QUOTE",
         href: "#",
