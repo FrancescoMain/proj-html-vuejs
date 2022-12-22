@@ -50,12 +50,13 @@ export default {
     h4 {
         color: $silver-chalice;
         font-weight: 700;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     h2 {
         color: $lima;
         font-weight: 700;
+        font-size: 3rem;
     }
 
     p {
