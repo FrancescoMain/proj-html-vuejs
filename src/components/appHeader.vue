@@ -1,13 +1,15 @@
 <script >
 import topHead from './topHead.vue'
 import navHero from './navHero.vue'
+import cta from './cta.vue'
 
 export default {
 
   name: "AppHeader",
   components: {
     topHead,
-    navHero
+    navHero,
+    cta
   }
 
 }
@@ -23,7 +25,7 @@ export default {
   <!-- navHero  -->
   <navHero />
   <!-- cta -->
-
+  <cta />
 </template>
 
 <style lang="scss" scoped>
