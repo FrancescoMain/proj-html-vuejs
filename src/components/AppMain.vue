@@ -1,12 +1,15 @@
 <script >
 import HeadacheFree from './HeadacheFree.vue'
+import Services from './Services.vue'
+
 
 
 export default {
 
     name: "AppMain",
     components: {
-        HeadacheFree
+        HeadacheFree,
+        Services
     }
 
 }
@@ -19,6 +22,8 @@ export default {
     <main>
         <!-- headache free -->
         <HeadacheFree />
+        <!-- Services -->
+        <Services />
     </main>
 
 </template>
