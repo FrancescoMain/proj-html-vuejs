@@ -25,7 +25,7 @@ export default {
     <div class="container">
         <div class="row justify-content-center align-items-center mt-3">
             <div class="col-4">
-                <img src="../../public/img/avada-movers-logo.png" alt="">
+                <img :src="store.logo.path" :alt="store.logo.path">
             </div>
             <div class="col">
                 <nav class="d-flex align-items-center">
