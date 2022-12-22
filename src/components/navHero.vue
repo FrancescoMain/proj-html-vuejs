@@ -30,7 +30,7 @@ export default {
 <style lang="scss" scoped>
 .wrapper {
     background-image: url(../../public/img/avada-movers-homeherobackground-final.jpg);
-    height: 800px;
+    height: 775px;
     background-size: 2650px;
     background-position-x: -419px;
     background-position-y: -66px;
