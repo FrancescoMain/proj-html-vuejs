@@ -4,7 +4,7 @@ import navHero from './navHero.vue'
 
 export default {
 
-  name: "App",
+  name: "AppHeader",
   components: {
     topHead,
     navHero
