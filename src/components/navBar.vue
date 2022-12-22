@@ -30,11 +30,11 @@ export default {
             <div class="col">
                 <nav class="d-flex align-items-center">
                     <ul>
-                        <li v-for="link in store.navbarLinks">
+                        <li v-for="link in store.navbarLinks" :key="link.id">
                             <a :href="link.href">{{ link.title }}</a>
                         </li>
                     </ul>
-                    <bottone />
+                    <bottone :data="store.navBut" />
                 </nav>
             </div>
         </div>
