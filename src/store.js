@@ -33,6 +33,29 @@ export const store = reactive({
         text: "lorem ipsum dolor sit amet, consectetur adipiscing el aspect et non proident et ullamcor lore tell tellus. Lorem ipsum dolor sit amet, consect",
     },
 
+    servicesTitles: {
+        topTitle: "WE ARE A PROFESSIONAL",
+        botTitle: "Full-Services Solution",
+    },
+
+    servicesCards: [
+        {
+            img: "../../public/img/avada-movers-serviceonephoto-final-400x255.jpg",
+            title: "Two Man Teams",
+            text: "lorem ipsum dolor sit amet, consectetur adipiscing el aspect et non proident et ullamcor lore tell tellus. Lorem ipsum dolor sit amet, consect",
+        },
+        {
+            img: "../../public/img/avada-movers-servicetwophoto-final-400x255.jpg",
+            title: "We Do All The Lifting",
+            text: "lorem ipsum dolor sit amet, consectetur adipiscing el aspect et non proident et ullamcor lore tell tellus. Lorem ipsum dolor sit amet, consect",
+        },
+        {
+            img: "../../public/img/avada-movers-servicethreephoto-final-400x255.jpg",
+            title: "Coast To Coast",
+            text: "lorem ipsum dolor sit amet, consectetur adipiscing el aspect et non proident et ullamcor lore tell tellus. Lorem ipsum dolor sit amet, consect",
+        }
+    ],
+
     // links
     cta: {
         icons: "fa-regular fa-paper-plane",
@@ -145,6 +168,10 @@ export const store = reactive({
     },
     headacheFreeBut: {
         text: "READ OUR TESTIMONIALS",
+        href: "#",
+    },
+    readMoreBut: {
+        text: "READ MORE",
         href: "#",
     }
 });
