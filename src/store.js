@@ -24,6 +24,8 @@ export const store = reactive({
     footTitle: "AVADA MOVERS",
     footSecondTitle: "RECENTS POSTS",
 
+    footerText: "@copyright 2012-2020 | Avada Theme  by ThemeFusion | All Rights Reserved | Powered By WordPress ",
+
     // links
     cta: {
         icons: "fa-regular fa-paper-plane",
