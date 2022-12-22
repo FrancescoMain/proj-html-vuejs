@@ -1,5 +1,14 @@
 <script >
+import topHead from './topHead.vue'
 
+export default {
+
+  name: "App",
+  components: {
+    topHead
+  }
+
+}
 
 
 
@@ -8,6 +17,7 @@
 <template>
 
   <!-- topHead  -->
+  <topHead />
   <!-- navHero  -->
   <!-- cta -->
 
