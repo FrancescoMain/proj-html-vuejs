@@ -19,6 +19,6 @@ export default {
   <!-- footer  -->
 </template>
 
-<style scoped>
-
+<style lang="scss">
+@use "../src/styles/generals.scss";
 </style>
