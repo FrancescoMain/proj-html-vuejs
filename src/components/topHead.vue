@@ -1,5 +1,17 @@
 <script >
+import { store } from "../store.js";
 
+export default {
+
+    name: "topHead",
+
+    data() {
+        return {
+            store,
+        }
+    }
+
+}
 </script>
 
 <template>
@@ -8,16 +20,13 @@
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-10">
-
-                    <a href=""> <font-awesome-icon class="me-2" icon="fa-solid fa-phone-flip" />Call us for a Free
-                        Quote:
-                        1.800.555.6789</a>
+                    <a :href="store.topHeadLink.href">
+                        <font-awesome-icon class="me-2" :icon="store.topHeadLink.icon" />
+                        {{ store.topHeadLink.Text }}</a>
                 </div>
                 <div class="col brands">
-                    <a href=""> <font-awesome-icon icon="fa-brands fa-facebook-f" class="me-4" /></a>
-                    <a href=""> <font-awesome-icon icon="fa-brands fa-twitter" class="me-4" /></a>
-                    <a href=""> <font-awesome-icon icon="fa-brands fa-instagram" class="me-4" /></a>
-                    <a href=""> <font-awesome-icon icon="fa-brands fa-youtube" class="me-4" /></a>
+                    <a v-for="social in store.socials" :href="social.href" :key="social.id">
+                        <font-awesome-icon :icon="social.icon" class="me-4" /></a>
                 </div>
             </div>
         </div>
