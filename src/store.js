@@ -62,6 +62,28 @@ export const store = reactive({
         text: "lorem ipsum dolor sit amet, consectetur adipiscing el aspect et non proident et ullamcor lore tell tellus. Lorem ipsum dolor sit amet, consect",
     },
 
+    testimonialTitles: {
+        topTitle: "HAPPY CUSTOMERS",
+        botTitle: "Testimonials",
+    },
+    testimonialCards: [
+        {
+            img: "../../public/img/avada-movers-johndoe-final-200x200.jpg",
+            title: "Jhon Doe",
+            text: "lorem ipsum dolor sit amet, consectetur adipiscing el aspect et non proident et ullamcor lore tell tellus. Lorem ipsum dolor sit amet, consect",
+        },
+        {
+            img: "../../public/img/avada-movers-janedoe-final-200x200.jpg",
+            title: "Jane Doe",
+            text: "lorem ipsum dolor sit amet, consectetur adipiscing el aspect et non proident et ullamcor lore tell tellus. Lorem ipsum dolor sit amet, consect",
+        },
+        {
+            img: "../../public/img/avada-movers-johnsmith-final-200x200.jpg",
+            title: "Jhon Smith",
+            text: "lorem ipsum dolor sit amet, consectetur adipiscing el aspect et non proident et ullamcor lore tell tellus. Lorem ipsum dolor sit amet, consect",
+        }
+    ],
+
     // links
     cta: {
         icons: "fa-regular fa-paper-plane",
@@ -182,6 +204,10 @@ export const store = reactive({
     },
     freeQuoteBut: {
         text: "GET A FREE QUOTE NOW",
+        href: "#",
+    },
+    readMoreTestimonial: {
+        text: "READ MORE TESTIMONIAL",
         href: "#",
     }
 });
