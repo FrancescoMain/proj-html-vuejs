@@ -45,11 +45,10 @@ export default {
 
 .wrapper {
     background-image:
-        url(../../public/img/avada-movers-servicetwophoto-final.jpg);
+        url(../../public/img/avada-movers-movewithease-background-new.jpg);
     height: 800px;
     background-repeat: no-repeat;
-    background-size: 1900px;
-    background-position-y: -200px;
+    background-size: 2000px;
     position: relative;
 
     .text-cont {
