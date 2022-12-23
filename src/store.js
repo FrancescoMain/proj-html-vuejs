@@ -84,6 +84,11 @@ export const store = reactive({
         }
     ],
 
+    requestTexts: {
+        Title: "Request A Free Quote ",
+        text: "lorem ipsum dolor sit amet, consectetur adipiscing el aspect et non proident et ullamcor lore tell tellus. Lorem ipsum dolor sit amet, consect",
+    },
+
     // links
     cta: {
         icons: "fa-regular fa-paper-plane",
@@ -208,6 +213,10 @@ export const store = reactive({
     },
     readMoreTestimonial: {
         text: "READ MORE TESTIMONIAL",
+        href: "#",
+    },
+    clickHere: {
+        text: "CLICK HERE",
         href: "#",
     }
 });
