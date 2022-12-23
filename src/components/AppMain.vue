@@ -2,6 +2,7 @@
 import HeadacheFree from './HeadacheFree.vue'
 import Services from './Services.vue'
 import FreeQuote from './FreeQuote.vue'
+import Testimonials from './Testimonials.vue'
 
 
 export default {
@@ -10,7 +11,8 @@ export default {
     components: {
         HeadacheFree,
         Services,
-        FreeQuote
+        FreeQuote,
+        Testimonials
     }
 
 }
@@ -27,6 +29,8 @@ export default {
         <Services />
         <!-- freeQuote -->
         <FreeQuote />
+        <!-- testimonials  -->
+        <Testimonials />
     </main>
 
 </template>
