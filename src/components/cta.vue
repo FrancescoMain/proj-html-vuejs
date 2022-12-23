@@ -21,7 +21,6 @@ export default {
         <div class="container">
             <div class="row  justify-content-center align-items-center text-center">
                 <div class="col-5">
-
                     <a :href="store.cta.href"> <font-awesome-icon class="me-2" :icon="store.cta.icons" />{{
                             store.cta.text
                     }}</a>

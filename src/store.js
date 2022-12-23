@@ -1,19 +1,31 @@
 import { reactive } from 'vue'
 export const store = reactive({
 
-    // imgs
+    // imgs ----------------------------------------------------------------
+
+
+
+
     logo: {
         path: "../../public/img/avada-movers-logo.png",
         alt: "Avada: Movers"
     },
 
-    // texts
+
+
+    // texts------------------------------------------------
+
+    // header
     heroText:
     {
         textTop: "MOVING WHITOUT THE HASSLE",
         textBottom: "PROFESSIONAL SEVICE WITH HIGH QUALITY AND CUSTOMER SATISFACTION",
         title: "WE MAKE IT SIMPLE"
     },
+
+
+
+    // footer 
 
     about: {
         title: "ABOUT",
@@ -23,7 +35,6 @@ export const store = reactive({
 
     footTitle: "AVADA MOVERS",
     footSecondTitle: "RECENTS POSTS",
-
     footerText: "@copyright 2012-2020 | Avada Theme  by ThemeFusion | All Rights Reserved | Powered By WordPress ",
 
     headacheFree: {
@@ -33,10 +44,14 @@ export const store = reactive({
         text: "lorem ipsum dolor sit amet, consectetur adipiscing el aspect et non proident et ullamcor lore tell tellus. Lorem ipsum dolor sit amet, consect",
     },
 
+
+    // main
+
     servicesTitles: {
         topTitle: "WE ARE A PROFESSIONAL",
         botTitle: "Full-Services Solution",
     },
+
 
     servicesCards: [
         {
@@ -56,16 +71,19 @@ export const store = reactive({
         }
     ],
 
+
     freeQuoteTexts: {
         topTitle: "WE REMOVE THE HEADACHE FROM MOVING ",
         title: "Move With Ease",
         text: "lorem ipsum dolor sit amet, consectetur adipiscing el aspect et non proident et ullamcor lore tell tellus. Lorem ipsum dolor sit amet, consect",
     },
 
+
     testimonialTitles: {
         topTitle: "HAPPY CUSTOMERS",
         botTitle: "Testimonials",
     },
+
     testimonialCards: [
         {
             img: "../../public/img/avada-movers-johndoe-final-200x200.jpg",
@@ -89,12 +107,19 @@ export const store = reactive({
         text: "lorem ipsum dolor sit amet, consectetur adipiscing el aspect et non proident et ullamcor lore tell tellus. Lorem ipsum dolor sit amet, consect",
     },
 
-    // links
+
+
+    // links----------------------------------------------------------------
+
+    // header 
     cta: {
         icons: "fa-regular fa-paper-plane",
         href: "#",
         text: "GET A FREE QUOTE ONLINE NOW ",
     },
+
+
+    // footer 
     recentPostsLinks: [
         {
             id: 0,
@@ -128,6 +153,9 @@ export const store = reactive({
             footer: true,
         }
     ],
+
+    // generals link 
+
     navbarLinks: [
         {
             id: 0,
@@ -194,11 +222,15 @@ export const store = reactive({
             icon: "fa-brands fa-youtube"
         }],
 
-    //buttons
+
+
+    //buttons ----------------------------------------------------------------
+
     navBut: {
         text: "FREE QUOTE",
         href: "#",
     },
+
     headacheFreeBut: {
         text: "READ OUR TESTIMONIALS",
         href: "#",
